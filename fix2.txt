@@ -72,6 +72,14 @@ git push -u origin main
 open fix2.txt
 git add fix2.txt
 git commit -m "Add commands to fix2.txt"
+git push
+
+17. 
+touch .gitignore
+open .gitignore 
+git add .
+git commit -m "Add .gitignore"
+git push
 
 
 
