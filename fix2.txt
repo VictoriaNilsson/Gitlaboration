@@ -81,5 +81,16 @@ git add .
 git commit -m "Add .gitignore"
 git push
 
+18.
+git tag -a v1.0 -m "Version 1.0"
 
+19. 
+git rebase -i HEAD ~3
+pick 68b96d4 Add fix2.txt
+squash 11fc887 Add commands to fix2.txt
+pick 37ae6cc Add .gitignore
+
+20.
+git switch -c feature3
+open fix2.txt
 
