@@ -93,4 +93,7 @@ pick 37ae6cc Add .gitignore
 20.
 git switch -c feature3
 open fix2.txt
+git add fix2.txt
+git commit -m ”add the last commands”
+git push
 
